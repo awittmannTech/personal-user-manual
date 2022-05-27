@@ -56,6 +56,9 @@ header img {
 }
 
 @media only screen and (max-width: 800px) {
+    .bg {
+        background-color: #8D99AE;
+    }
     .content {
         height: 100vh;
         border-radius: 0;
