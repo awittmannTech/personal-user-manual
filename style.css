@@ -1,0 +1,55 @@
+body {
+    font-size: 16px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg {
+    background-color: #2B2D42;
+}
+
+header {
+    text-align: center;
+    margin-top: 25px;
+}
+
+header h1 {
+    color: #EDF2F4;
+    font-size: .6rem;
+}
+
+header h1, h2 {
+    margin: 0;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+.content {
+    background-color: #8D99AE;
+    border-radius: 10px;
+    max-width: 1050px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card {
+    padding: 10px 20px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+}
+
+.card ul {
+    font-size: 1rem;
+}
